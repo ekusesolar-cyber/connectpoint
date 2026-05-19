@@ -7,7 +7,7 @@ import { ReportService } from '../services/ReportService';
 import { PaymentService } from '../services/PaymentService';
 import { PackageService } from '../services/PackageService';
 import { ZodError } from 'zod';
-import { hotspotSchema, packageSchema, voucherGenerateSchema, kycSchema, withdrawalSchema } from '@connectpoint/shared';
+import { hotspotSchema, packageSchema, voucherGenerateSchema, kycSchema, withdrawalSchema } from '../shared/validators';
 import { generateVoucherCode, generatePin } from '../utils/helpers';
 
 export const getDashboard = async (req: Request, res: Response) => {

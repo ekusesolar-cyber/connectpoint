@@ -4,7 +4,7 @@ import crypto from 'crypto';
 import prisma from '../config/database';
 import { env } from '../config/env';
 import type { JwtPayload } from '../middleware/auth';
-import type { RegisterInput, LoginInput } from '@connectpoint/shared';
+import type { RegisterInput, LoginInput } from '../shared/validators';
 
 export class AuthService {
   static async register(data: RegisterInput) {

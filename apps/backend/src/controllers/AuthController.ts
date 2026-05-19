@@ -2,7 +2,7 @@
 import { AuthService } from '../services/AuthService';
 import { EmailService } from '../services/EmailService';
 import { env } from '../config/env';
-import { registerSchema, loginSchema } from '@connectpoint/shared';
+import { registerSchema, loginSchema } from '../shared/validators';
 import { ZodError } from 'zod';
 
 export const register = async (req: Request, res: Response) => {
