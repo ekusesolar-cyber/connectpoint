@@ -1,0 +1,200 @@
+﻿{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "CrÃ©er",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "download": "TÃ©lÃ©charger",
+    "upload": "TÃ©lÃ©verser",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "close": "Fermer",
+    "logout": "DÃ©connexion",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "email": "Email",
+    "password": "Mot de passe",
+    "name": "Nom complet",
+    "phone": "TÃ©lÃ©phone",
+    "status": "Statut",
+    "actions": "Actions",
+    "noData": "Aucune donnÃ©e disponible",
+    "welcome": "Bienvenue"
+  },
+  "nav": {
+    "home": "Accueil",
+    "features": "FonctionnalitÃ©s",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "dashboard": "Tableau de bord",
+    "admin": "Admin",
+    "language": "Langue"
+  },
+  "hero": {
+    "title": "Transformez n'importe quelle connexion Internet en une entreprise de hotspot rentable",
+    "subtitle": "ConnectPoint aide les Ã©coles, les auberges, les cafÃ©s, les magasins, les bureaux, les transporteurs, les communautÃ©s et les propriÃ©taires de Starlink Ã  monÃ©tiser leur connexion Internet avec une gestion d'accÃ¨s Wi-Fi payante et gratuite.",
+    "cta": "Essai gratuit",
+    "learnMore": "En savoir plus",
+    "stats": "Hotspots actifs | Pays | Revenus traitÃ©s"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour gÃ©rer votre activitÃ© de hotspot",
+    "subtitle": "De la crÃ©ation de forfaits au suivi des revenus, ConnectPoint fournit une plateforme complÃ¨te.",
+    "items": {
+      "packages": {
+        "title": "Forfaits intelligents",
+        "desc": "CrÃ©ez des forfaits par temps, volume de donnÃ©es, vitesse ou accÃ¨s illimitÃ©. Fixez vos propres prix."
+      },
+      "vouchers": {
+        "title": "SystÃ¨me de vouchers",
+        "desc": "GÃ©nÃ©rez des codes de voucher uniques ou en lot. Imprimez ou partagez numÃ©riquement avec les clients."
+      },
+      "payments": {
+        "title": "Mobile Money & Carte",
+        "desc": "Acceptez Flutterwave, MTN MoMo, Orange Money et les paiements par carte automatiquement."
+      },
+      "radius": {
+        "title": "IntÃ©gration MikroTik",
+        "desc": "Authentification RADIUS complÃ¨te avec les routeurs MikroTik. Gestion automatisÃ©e des utilisateurs."
+      },
+      "portal": {
+        "title": "Portail captif",
+        "desc": "Page de connexion mobile-first personnalisÃ©e. Les clients voient les forfaits et paient instantanÃ©ment."
+      },
+      "reports": {
+        "title": "Rapports de revenus",
+        "desc": "Suivez les gains, les utilisateurs actifs, l'utilisation des donnÃ©es et gÃ©nÃ©rez des rapports dÃ©taillÃ©s."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Tarification simple et transparente",
+    "subtitle": "Commencez gratuitement et Ã©voluez selon vos besoins.",
+    "free": {
+      "name": "Gratuit",
+      "desc": "Parfait pour commencer",
+      "price": "0",
+      "features": ["1 Hotspot", "5 Forfaits", "Rapports de base", "Support communautaire"]
+    },
+    "starter": {
+      "name": "DÃ©butant",
+      "desc": "Pour les entreprises en croissance",
+      "price": "5 000",
+      "features": ["3 Hotspots", "Forfaits illimitÃ©s", "Rapports de revenus", "Support par email", "SystÃ¨me de vouchers"]
+    },
+    "pro": {
+      "name": "Pro",
+      "desc": "Pour les opÃ©rateurs sÃ©rieux",
+      "price": "15 000",
+      "features": ["10 Hotspots", "Toutes les fonctionnalitÃ©s", "AccÃ¨s API", "Support prioritaire", "Domaine personnalisÃ©", "Analytiques avancÃ©es"]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "desc": "Pour les grands rÃ©seaux",
+      "price": "Sur mesure",
+      "features": ["Hotspots illimitÃ©s", "Marque blanche", "SLA", "Support dÃ©diÃ©", "IntÃ©gration personnalisÃ©e", "Option sur site"]
+    },
+    "cta": "Commencer",
+    "contact": "Contactez-nous"
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "loginSubtitle": "Connectez-vous Ã  votre tableau de bord",
+    "registerTitle": "CrÃ©ez votre compte",
+    "registerSubtitle": "Commencez Ã  monÃ©tiser votre hotspot",
+    "forgotPassword": "Mot de passe oubliÃ© ?",
+    "resetPassword": "RÃ©initialiser le mot de passe",
+    "noAccount": "Pas encore de compte ?",
+    "hasAccount": "DÃ©jÃ  un compte ?",
+    "sendReset": "Envoyer le lien de rÃ©initialisation",
+    "checkEmail": "Consultez vos emails pour le lien de rÃ©initialisation"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "totalHotspots": "Total Hotspots",
+    "activeUsers": "Utilisateurs actifs",
+    "totalRevenue": "Revenu total",
+    "totalCustomers": "Total clients",
+    "revenueToday": "Revenu aujourd'hui",
+    "revenueMonth": "Ce mois-ci",
+    "sessionsToday": "Sessions aujourd'hui",
+    "hotspots": "Hotspots",
+    "packages": "Forfaits",
+    "vouchers": "Vouchers",
+    "users": "Utilisateurs",
+    "revenue": "Revenus",
+    "reports": "Rapports",
+    "withdrawals": "Retraits",
+    "settings": "ParamÃ¨tres",
+    "profile": "Profil",
+    "kyc": "VÃ©rification KYC",
+    "addHotspot": "Ajouter un hotspot",
+    "createPackage": "CrÃ©er un forfait",
+    "generateVoucher": "GÃ©nÃ©rer un voucher",
+    "disconnect": "DÃ©connecter",
+    "block": "Bloquer",
+    "requestWithdrawal": "Demander un retrait",
+    "availableBalance": "Solde disponible",
+    "pendingKyc": "KYC en attente",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "totalEarnings": "Gains totaux"
+  },
+  "admin": {
+    "title": "Tableau de bord admin",
+    "totalOwners": "Total propriÃ©taires",
+    "totalHotspots": "Total hotspots",
+    "activeSessions": "Sessions actives",
+    "totalRevenue": "Revenu total",
+    "platformFees": "Frais de plateforme",
+    "pendingKyc": "KYC en attente",
+    "owners": "PropriÃ©taires",
+    "kycManagement": "Gestion KYC",
+    "transactions": "Transactions",
+    "commission": "Commission",
+    "subscriptions": "Abonnements",
+    "analytics": "Analytiques",
+    "auditLogs": "Journaux d'audit",
+    "suspend": "Suspendre",
+    "unsuspend": "RÃ©activer"
+  },
+  "portal": {
+    "title": "Connectez-vous",
+    "subtitle": "SÃ©lectionnez un forfait ou entrez un code voucher pour accÃ©der Ã  Internet",
+    "voucherTab": "Voucher",
+    "purchaseTab": "Acheter",
+    "enterCode": "Entrez le code voucher",
+    "enterPin": "Entrez le code PIN",
+    "login": "Connecter",
+    "buyNow": "Acheter",
+    "payWith": "Payer avec",
+    "processing": "Traitement du paiement...",
+    "success": "ConnectÃ© avec succÃ¨s !",
+    "remaining": "Restant",
+    "time": "Temps",
+    "data": "DonnÃ©es",
+    "extend": "Prolonger",
+    "terms": "J'accepte les conditions d'utilisation",
+    "sponsored": "SponsorisÃ© par",
+    "skipAd": "Passer",
+    "connecting": "Connexion...",
+    "connected": "Vous Ãªtes maintenant connectÃ©",
+    "expired": "Session expirÃ©e",
+    "freeAccess": "AccÃ¨s gratuit"
+  },
+  "footer": {
+    "rights": "Tous droits rÃ©servÃ©s.",
+    "privacy": "Politique de confidentialitÃ©",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contactez-nous",
+    "compliance": "ConnectPoint se conforme aux rÃ©glementations applicables en matiÃ¨re de protection des donnÃ©es. Nous ne stockons pas les dÃ©tails des cartes de paiement."
+  }
+}

@@ -1,0 +1,64 @@
+server default {
+  listen {
+    type = auth
+    ipaddr = *
+    port = 1812
+  }
+
+  listen {
+    type = acct
+    ipaddr = *
+    port = 1813
+  }
+
+  authorize {
+    filter_username
+    preprocess
+    auth_log
+    suffix
+    files
+    sql
+    if (ok) {
+      update control {
+        Auth-Type := Accept
+      }
+    }
+    pap
+  }
+
+  authenticate {
+    Auth-Type PAP {
+      pap
+    }
+  }
+
+  preacct {
+    preprocess
+    acct_counters64
+    files
+  }
+
+  accounting {
+    detail
+    sql
+    exec
+    attr_filter.accounting_response
+  }
+
+  session {
+    sql
+  }
+
+  post-auth {
+    reply_log
+    Post-Auth-Type REJECT {
+      attr_filter.access_reject
+    }
+  }
+
+  pre-proxy {
+  }
+
+  post-proxy {
+  }
+}

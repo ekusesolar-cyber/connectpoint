@@ -1,0 +1,200 @@
+﻿{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "download": "Download",
+    "upload": "Upload",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "phone": "Phone",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No data available",
+    "welcome": "Welcome"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Turn Any Internet Connection into a Profitable Hotspot Business",
+    "subtitle": "ConnectPoint helps schools, hostels, cafes, shops, offices, transport operators, communities, and Starlink owners monetize their internet connection with paid and free Wi-Fi access management.",
+    "cta": "Start Free Trial",
+    "learnMore": "Learn More",
+    "stats": "Active Hotspots | Countries | Revenue Processed"
+  },
+  "features": {
+    "title": "Everything You Need to Run Your Hotspot Business",
+    "subtitle": "From package creation to revenue tracking, ConnectPoint provides a complete platform.",
+    "items": {
+      "packages": {
+        "title": "Smart Packages",
+        "desc": "Create packages by time, data volume, speed, or unlimited access. Set your own prices."
+      },
+      "vouchers": {
+        "title": "Voucher System",
+        "desc": "Generate single or bulk voucher codes. Print or share digitally with customers."
+      },
+      "payments": {
+        "title": "Mobile Money & Card",
+        "desc": "Accept Flutterwave, MTN MoMo, Orange Money, and card payments automatically."
+      },
+      "radius": {
+        "title": "MikroTik Integration",
+        "desc": "Full RADIUS authentication with MikroTik routers. Automated user management."
+      },
+      "portal": {
+        "title": "Captive Portal",
+        "desc": "Mobile-first branded login page. Customers see packages and pay instantly."
+      },
+      "reports": {
+        "title": "Revenue Reports",
+        "desc": "Track earnings, active users, data usage, and generate detailed reports."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Start free and scale as you grow.",
+    "free": {
+      "name": "Free",
+      "desc": "Perfect for getting started",
+      "price": "0",
+      "features": ["1 Hotspot", "5 Packages", "Basic Reports", "Community Support"]
+    },
+    "starter": {
+      "name": "Starter",
+      "desc": "For growing businesses",
+      "price": "5,000",
+      "features": ["3 Hotspots", "Unlimited Packages", "Revenue Reports", "Email Support", "Voucher System"]
+    },
+    "pro": {
+      "name": "Pro",
+      "desc": "For serious operators",
+      "price": "15,000",
+      "features": ["10 Hotspots", "All Features", "API Access", "Priority Support", "Custom Domain", "Advanced Analytics"]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "desc": "For large networks",
+      "price": "Custom",
+      "features": ["Unlimited Hotspots", "White Label", "SLA", "Dedicated Support", "Custom Integration", "On-premise Option"]
+    },
+    "cta": "Get Started",
+    "contact": "Contact Us"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your dashboard",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Start monetizing your hotspot",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "sendReset": "Send Reset Link",
+    "checkEmail": "Check your email for the reset link"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalHotspots": "Total Hotspots",
+    "activeUsers": "Active Users",
+    "totalRevenue": "Total Revenue",
+    "totalCustomers": "Total Customers",
+    "revenueToday": "Today's Revenue",
+    "revenueMonth": "This Month",
+    "sessionsToday": "Sessions Today",
+    "hotspots": "Hotspots",
+    "packages": "Packages",
+    "vouchers": "Vouchers",
+    "users": "Users",
+    "revenue": "Revenue",
+    "reports": "Reports",
+    "withdrawals": "Withdrawals",
+    "settings": "Settings",
+    "profile": "Profile",
+    "kyc": "KYC Verification",
+    "addHotspot": "Add Hotspot",
+    "createPackage": "Create Package",
+    "generateVoucher": "Generate Voucher",
+    "disconnect": "Disconnect",
+    "block": "Block",
+    "requestWithdrawal": "Request Withdrawal",
+    "availableBalance": "Available Balance",
+    "pendingKyc": "Pending KYC",
+    "approve": "Approve",
+    "reject": "Reject",
+    "totalEarnings": "Total Earnings"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "totalOwners": "Total Owners",
+    "totalHotspots": "Total Hotspots",
+    "activeSessions": "Active Sessions",
+    "totalRevenue": "Total Revenue",
+    "platformFees": "Platform Fees",
+    "pendingKyc": "Pending KYC Reviews",
+    "owners": "Owners",
+    "kycManagement": "KYC Management",
+    "transactions": "Transactions",
+    "commission": "Commission",
+    "subscriptions": "Subscriptions",
+    "analytics": "Analytics",
+    "auditLogs": "Audit Logs",
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend"
+  },
+  "portal": {
+    "title": "Get Connected",
+    "subtitle": "Select a package or enter a voucher code to access the internet",
+    "voucherTab": "Voucher",
+    "purchaseTab": "Buy Package",
+    "enterCode": "Enter voucher code",
+    "enterPin": "Enter PIN",
+    "login": "Connect",
+    "buyNow": "Buy Now",
+    "payWith": "Pay with",
+    "processing": "Processing payment...",
+    "success": "Connected Successfully!",
+    "remaining": "Remaining",
+    "time": "Time",
+    "data": "Data",
+    "extend": "Extend",
+    "terms": "I accept the Terms and Conditions",
+    "sponsored": "Sponsored by",
+    "skipAd": "Skip",
+    "connecting": "Connecting...",
+    "connected": "You are now connected",
+    "expired": "Session expired",
+    "freeAccess": "Free Access"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us",
+    "compliance": "ConnectPoint complies with applicable data protection regulations. We do not store payment card details."
+  }
+}
