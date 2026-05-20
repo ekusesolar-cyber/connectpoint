@@ -63,6 +63,7 @@ model User {
   hotspots          Hotspot[]
   ownedTransactions Transaction[] @relation("OwnerTransactions")
   withdrawals       Withdrawal[]
+  processedWithdrawals Withdrawal[] @relation("ProcessedBy")
   subscriptions     Subscription[]
   auditLogs         AuditLog[]
   reviewedKyc       KYCProfile[]  @relation("KYCReviewer")
@@ -139,8 +140,10 @@ model Package {
   createdAt       DateTime    @default(now()) @map("created_at")
   updatedAt       DateTime    @updatedAt @map("updated_at")
 
-  hotspot  Hotspot    @relation(fields: [hotspotId], references: [id])
-  vouchers Voucher[]
+  hotspot      Hotspot      @relation(fields: [hotspotId], references: [id])
+  vouchers     Voucher[]
+  sessions     Session[]
+  transactions Transaction[]
 
   @@map("packages")
 }
@@ -159,8 +162,10 @@ model Voucher {
   batchId   String?   @map("batch_id")
   createdAt DateTime  @default(now()) @map("created_at")
 
-  package Package? @relation(fields: [packageId], references: [id])
-  hotspot Hotspot  @relation(fields: [hotspotId], references: [id])
+  package  Package? @relation(fields: [packageId], references: [id])
+  hotspot  Hotspot  @relation(fields: [hotspotId], references: [id])
+  sessions Session[]
+  transactions Transaction[]
 
   @@map("vouchers")
 }
